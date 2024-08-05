@@ -1,9 +1,10 @@
-// Destino.js
+// Destino.js (modificado)
 import React from 'react';
+import './App.css';
 
 const Destino = ({ nome, descricao }) => {
   return (
-    <div>
+    <div className="destino">
       <h2>{nome}</h2>
       <p>{descricao}</p>
     </div>
@@ -11,4 +12,3 @@ const Destino = ({ nome, descricao }) => {
 };
 
 export default Destino;
-
